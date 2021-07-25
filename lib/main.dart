@@ -185,7 +185,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             }
                     ));
                   },
-                  child: Text("Signup",style: TextStyle(
+                  child: Text("SignUp",style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontStyle: FontStyle.italic,
                       fontSize: 18),),
