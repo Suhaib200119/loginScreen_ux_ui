@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:app_login_signin/Screen2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -177,12 +177,20 @@ class _MyHomePageState extends State<MyHomePage> {
                       fontSize: 18),
                 ),
                 InkWell(
-                  onTap: (){},
+                  onTap: (){
+                    Navigator.of(context).push(
+                        MaterialPageRoute(
+                            builder: (_){
+                              return Screen1();
+                            }
+                    ));
+                  },
                   child: Text("Signup",style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontStyle: FontStyle.italic,
                       fontSize: 18),),
                 ),
+
               ],
             ),
           ],
